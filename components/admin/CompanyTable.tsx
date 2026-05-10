@@ -61,7 +61,7 @@ export default function CompanyTable() {
     {
       key: "averageRating",
       label: "Rating",
-      render: (v: number) => (
+      render: (v: number, row: any) => (
         <div className="flex items-center gap-1.5">
           <span className="text-sm font-medium">{v.toFixed(1)}</span>
           <span className="text-xs text-gray-400">({row.totalReviews || 0})</span>

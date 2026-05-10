@@ -1,4 +1,4 @@
-import { useAuth } from 'next-auth/react';
+import { useSession } from 'next-auth/react';
 import { useMemo } from 'react';
 import type { AuthUser } from '@/types';
 

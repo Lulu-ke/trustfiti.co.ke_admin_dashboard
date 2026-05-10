@@ -110,9 +110,9 @@ export default function CompanyDetailPage() {
   };
 
   const tabs = [
-    { id: 'info', label: 'Company Info' },
-    { id: 'reviews', label: `Reviews (${company._count?.reviews || 0})` },
-    { id: 'verification', label: 'Verification' },
+    { key: 'info', label: 'Company Info' },
+    { key: 'reviews', label: `Reviews (${company._count?.reviews || 0})` },
+    { key: 'verification', label: 'Verification' },
   ];
 
   return (

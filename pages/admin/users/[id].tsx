@@ -82,7 +82,7 @@ export default function UserDetailPage() {
           {/* Profile Card */}
           <Card>
             <div className="flex flex-col items-center text-center">
-              <Avatar src={user.avatar} name={user.fullName} size="xl" />
+              <Avatar src={user.avatar} name={user.fullName} size="lg" />
               <h2 className="mt-4 text-xl font-bold text-gray-900">{user.fullName || 'No name'}</h2>
               <p className="text-sm text-gray-500 mt-0.5">@{user.phoneNumber || '—'}</p>
               <div className="flex items-center gap-2 mt-2">

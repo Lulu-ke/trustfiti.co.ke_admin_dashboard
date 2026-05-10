@@ -44,7 +44,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
             isVerified: true,
             isActive: true,
             createdAt: true,
-            _count: { select: { reviews: true, flags: true, ownedCompany: true } },
+            _count: { select: { reviews: true, flags: true } },
           },
         }),
         prisma.user.count({ where }),

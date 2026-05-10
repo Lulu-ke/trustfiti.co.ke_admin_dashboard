@@ -16,6 +16,7 @@ interface AnalyticsOverviewProps {
     };
     companyStats: {
       byVerificationStatus: { status: string; count: number }[];
+      topRated: { id: string; name: string; averageRating: number }[];
     };
     reviewStats: {
       byStatus: { status: string; count: number }[];
